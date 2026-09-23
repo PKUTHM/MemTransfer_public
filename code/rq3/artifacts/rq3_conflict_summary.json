@@ -1,0 +1,13 @@
+{
+  "cases": 100,
+  "max_c": 1.0,
+  "max_c_times_m": 0.4166666666666667,
+  "mean_c": 0.406578,
+  "mean_c_times_m": 0.105067,
+  "nonzero_conflict_selected": 195,
+  "nonzero_overlap_selected": 200,
+  "note": "H hard distractor per the RQ3 standard card: top-2 by c*m among eligible foreign candidates from distinct source cases.",
+  "rule": "high_conflict",
+  "schema_version": 1,
+  "selected_trajectories": 200
+}

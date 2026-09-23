@@ -1,0 +1,9 @@
+{
+  "A_zero_overlap_cases": 100,
+  "B_zero_overlap_cases": 100,
+  "cases": 100,
+  "max_selected_c": 0.0,
+  "note": "E/H mean one/two replacement slots, not original c*m hard classification.",
+  "schema_version": 1,
+  "selected_trajectories": 200
+}

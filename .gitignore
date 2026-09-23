@@ -1,0 +1,39 @@
+# Python environment and cache
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Editor and system temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Dataset (keep README files only)
+/dataset/*
+!/dataset/README.md
+
+# Experiment results (keep README files only)
+/result/*
+!/result/README.md
+/result_*/
+
+# Local key files
+/api.xlsx
+
+# Large raw archives and local materials
+*.tar
+*.tar.gz
+*.pptx
+
+# Temporary run directories and backups
+/.tmp/
+/logs/
+*_gen.log
+*.zip

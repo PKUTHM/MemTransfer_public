@@ -1,0 +1,2010 @@
+{
+  "candidate_audit_path": "code/rq3/artifacts/rq3_candidates.jsonl",
+  "candidate_audit_sha256": "8057ac8b39005da1bbd752e60457e16aebc20743c3d5250880811cf0397dce09",
+  "cases": {
+    "T01-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case03-V0",
+        "source_case": "T02-case03",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V0",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V3",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v3/trajectory.json",
+        "variant": "V3"
+      }
+    },
+    "T01-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V0",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V0",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V0",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case03-V0",
+        "source_case": "T02-case03",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V0",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case03-V0",
+        "source_case": "T02-case03",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case03-V0",
+        "source_case": "T02-case03",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T01-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T02-case01-V0",
+        "source_case": "T02-case01",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T02-case02-V0",
+        "source_case": "T02-case02",
+        "task_id": "T02",
+        "task_path": "dataset/v0-v5/T02/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T02/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T02-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T03-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T04-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V1",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v1/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v1/trajectory.json",
+        "variant": "V1"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V1",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v1/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v1/trajectory.json",
+        "variant": "V1"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T05-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V1",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v1/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v1/trajectory.json",
+        "variant": "V1"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T06-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V3",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v3/trajectory.json",
+        "variant": "V3"
+      }
+    },
+    "T07-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T07-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T08-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case04-V0",
+        "source_case": "T01-case04",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case04/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case04/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T09-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case01": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case02": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case03": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V3",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case04": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case05": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case06": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case07": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case08": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case01-V0",
+        "source_case": "T01-case01",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case01/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case01/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case09": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V0",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v0/trajectory.json",
+        "variant": "V0"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    },
+    "T10-case10": {
+      "A": {
+        "c": 0.0,
+        "episode_id": "T01-case02-V3",
+        "source_case": "T01-case02",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case02/v3/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case02/v3/trajectory.json",
+        "variant": "V3"
+      },
+      "B": {
+        "c": 0.0,
+        "episode_id": "T01-case03-V0",
+        "source_case": "T01-case03",
+        "task_id": "T01",
+        "task_path": "dataset/v0-v5/T01/case03/v0/task.json",
+        "trajectory_path": "dataset/v0-v5/T01/case03/v0/trajectory.json",
+        "variant": "V0"
+      }
+    }
+  },
+  "schema_version": 1,
+  "selection_rule": "eligible; different target task_id; distinct source cases; ascending (c, source_case, variant)",
+  "sources_path": "code/rq3/artifacts/rq3_sources.json",
+  "sources_sha256": "2d62e01c77fc5be9ffc4adca96c5069aa79f724c91599773e543700eed34cb87"
+}

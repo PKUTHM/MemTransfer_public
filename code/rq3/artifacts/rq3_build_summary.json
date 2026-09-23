@@ -1,0 +1,43 @@
+{
+  "candidate_rows": 39600,
+  "checks": {
+    "100_cases": true,
+    "H400_E300": true,
+    "H_E_c_gap_ge_0.15": true,
+    "H_trap_mean_ge_0.05": true,
+    "trap_points_mean_ge_3": false
+  },
+  "counts": {
+    "E": 300,
+    "H": 400,
+    "L": 300
+  },
+  "legacy_report_ok": true,
+  "length_window": null,
+  "means": {
+    "E": {
+      "c": 0.0,
+      "m": 0.0,
+      "trap": 0.0
+    },
+    "H": {
+      "c": 0.322474445001607,
+      "m": 0.3990367321948516,
+      "trap": 0.09904225848206899
+    },
+    "L": {
+      "c": 0.47998636334195804,
+      "m": 0.0650540458855826,
+      "trap": 0.03351340792612214
+    }
+  },
+  "schema_version": 1,
+  "stage_notes": {
+    "T09-case10-V0": [
+      "stage_count_mismatch: retain stored events; no inferred/repaired milestones"
+    ]
+  },
+  "status": "quality_gate_failed",
+  "trap_points_mean": 0.0,
+  "walkable_cells": 224
+}

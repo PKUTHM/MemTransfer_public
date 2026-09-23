@@ -1,0 +1,178 @@
+# rq3_D03_episodic_easy__test_v4
+# Easy: replace V3 with fixed low-overlap cross-task trajectories.
+# Self-contained parameters aligned with B05_episodic_v0-v3__test_v4.yaml.
+# Run through python -m rq3.runtime; the stock RQ1 entry point cannot use cross-case slots.
+
+schema_version: 1
+experiment_id: rq3_D03_episodic_easy__test_v4
+description: 'RQ3 | episodic | Easy: replace V3 | test: V4'
+ref_model: Intern-S2-Preview-397B
+
+# --- what is under test --------------------------------------------------
+# v0 = the original origins (RQ1 1A); v4 = new origin, same scene (RQ1 1B).
+test_version: v4
+
+# --- data ------------------------------------------------------------------
+dataset_root: dataset/v0-v5
+case_map: dataset/v0-v5/case_id_map.json
+scene:
+  image_base64_dir: dataset/v0-v5/scene_v0-v4/image_base64
+  image_dir: dataset/v0-v5/scene_v0-v4/image
+  legacy_tasks: dataset/v0-v5/scene_v0-v4/tasks.json
+  metadata: dataset/v0-v5/scene_v0-v4/metadata.json
+
+# --- agent -----------------------------------------------------------------
+working_memory:
+  history_images: 6     # i
+  history_steps: 6      # h
+max_steps: 200
+max_prompt_images: 50
+repeats: 1
+
+# --- prompt shaping --------------------------------------------------------
+prompt:
+  image_max_size: 448
+  image_quality: 80
+  reference_traj_smart_layers: [start, stage, end, turn]
+  reference_traj_smart_sample_count: null
+  vit_exact_cosine: 0.97
+  vit_near_cosine: 0.75
+  vit_cosine_tie_eps: 1.0e-4
+  # Memory that started exactly at the test origin is introduced as such.
+  same_origin_wording: true
+  obstacle_notice: false
+
+# --- server ----------------------------------------------------------------
+server:
+  notify_on_progress: true
+  require_explicit_declare: false
+  action_cache_limit: 208
+
+# --- decision retries / give-up limits (in the fingerprint) -----------------
+retry:
+  # A reply cut off before it named an action is re-asked with double the
+  # budget (30 -> 60 -> 120 -> 240), at most this many times, never above
+  # the ceiling. 0 would make max_tokens a hard cap.
+  truncation_retries: 3
+  max_tokens_ceiling: 32768
+  # Consecutive failures of one kind after which the attempt ends.
+  max_consecutive_truncated: 5        # ends unsettled; the case is re-attempted
+  max_consecutive_model_failures: 3   # settles the case as failed_model_output
+  max_consecutive_technical: 3        # ends unsettled; the case is re-attempted
+
+# --- memory files (sha256 verified at load time) ----------------------------
+memory_files:
+  semantic:
+    v0:
+      path: dataset/memory/v0/semantic_memory/memory.md
+      scope_case_count: 100
+      sha256: dbc828232d79e909e967995e8e3cf7984e2810b5d616112ee96361f283c6fd3f
+    v1:
+      path: dataset/memory/v1/semantic_memory/memory.md
+      scope_case_count: 100
+      sha256: 4b1b626e78f77f9d6fd86e666662fac25836c49d9cd03400d648564d8883bd07
+    v2:
+      path: dataset/memory/v2/semantic_memory/memory.md
+      scope_case_count: 100
+      sha256: 7ff6fb69170ecadf287fee4d73cb7f926743d514ffc10144ffae6b969b19921e
+    v3:
+      path: dataset/memory/v3/semantic_memory/memory.md
+      scope_case_count: 100
+      sha256: d378d47901b07c33582758f727831eee6dd681338958fe295120721667b606f7
+  summary:
+    v0:
+      path: dataset/memory/v0/summary_memory/summary.md
+      scope_case_count: 100
+      sha256: f551954f4c133e83fff81f11ad847cdc9d2c52d70df6288faca5a95e78c95503
+    v1:
+      path: dataset/memory/v1/summary_memory/summary.md
+      scope_case_count: 100
+      sha256: 9b6e76c6a4e87f31773ac97f92424a3fbdbed67ed62ee1f73f6d9257d464443f
+    v2:
+      path: dataset/memory/v2/summary_memory/summary.md
+      scope_case_count: 100
+      sha256: fc7db04b513dd0dc4fb73d4e547eef3ea35f18065c4915fea018de8baf3e99ff
+    v3:
+      path: dataset/memory/v3/summary_memory/summary.md
+      scope_case_count: 100
+      sha256: d404859a3f51e0a11a43091a6efaebc9d14eb4565e28634b6340f6ce7470f67a
+
+# --- model -----------------------------------------------------------------
+model:
+  name: intern-s2-preview-397b
+  api_url: https://chat.intern-ai.org.cn/api/v1/chat/completions
+  provider: internai          # internai | openai
+  temperature: 0.0
+  max_tokens: 30
+  # Merged into every request body verbatim (the agent sends no
+  # thinking_mode of its own). false: answer directly, no reasoning.
+  extra_body:
+    thinking_mode: false
+  # strict: the reply must name exactly one kind of action; two or more
+  # is a model-output failure (re-asked, no step taken). | last
+  action_extraction: strict
+
+# --- execution (not in the fingerprint) -------------------------------------
+execution:
+  api_excel: api.xlsx
+  max_workers: 100
+  max_api_attempts_per_step: 5
+  step_wall_clock_seconds: 1800
+  connect_timeout: 30
+  read_timeout: 600
+  retry_interval_seconds: 1.0
+  max_case_attempts: 3
+  server_retry_attempts: 3
+  circuit_breaker:
+    probe_cases: 10
+    max_technical_step_ratio: 0.2
+  validate_keys: true
+  key_probe_workers: 24
+  api_key_cache: result_Intern-S2-Preview-397B/api_keys_valid_397b.json
+  min_valid_keys: 20
+  # Save each case attempt's full first-decision request under
+  # request_samples/ (output only, not in the fingerprint).
+  save_prompts: false
+
+# --- memory under test (group id and slug come from the file name) --------
+method: episodic
+memory: episodic
+# Allowed historical versions; actual four source episodes are resolved via memory_slots below.
+# Existing same-case loader cannot execute the foreign slots.
+versions: [v0, v1, v2, v3]
+reference_traj_images: none
+max_reference_images: 7
+max_smart_images_per_traj: 0
+max_total_images: 14    # 1 + history_images + max_reference_images
+episodic_matcher: vit
+episodic_horizon: 6
+episodic_content: all
+
+# --- RQ3 cross-case memory selection ----------------------------------------
+kind: rq3_experiment_spec
+status: rq3_runtime_only
+baseline_config: config/rq1/B05_episodic_v0-v3__test_v4.yaml
+baseline_sha256: 09c30c6dba80fab3e1c82c87b144e5ecf32ef0825793c3f0881d78fe02edce53
+case_count: 100
+replacement_bank:
+  path: code/rq3/artifacts/rq3_replacement_bank.json
+  audit: code/rq3/artifacts/rq3_replacement_audit.jsonl
+  summary: code/rq3/artifacts/rq3_replacement_summary.json
+  sources: code/rq3/artifacts/rq3_sources.json
+memory_slots:
+- slot: 1
+  own_version: v0
+- slot: 2
+  own_version: v1
+- slot: 3
+  own_version: v2
+- slot: 4
+  foreign_role: A
+pre_run_checks:
+- replacement_selection_valid
+- baseline_slot_order_verified
+- baseline_seed_verified
+- reference_instruction_labels_reviewed
+seed:
+  policy: match_baseline_run
+  value: null

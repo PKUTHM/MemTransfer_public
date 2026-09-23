@@ -1,0 +1,7 @@
+schema_version: 1
+kind: rq3_offline_bank
+dataset_root: dataset/v0-v5
+case_map: dataset/v0-v5/case_id_map.json
+output_dir: code/rq3/artifacts
+algorithm: handoff_20260912_unchanged
+trajectory_kind: forward_only
