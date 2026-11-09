@@ -2,7 +2,7 @@
 
 This directory contains all test data required for MemTransfer experiments.
 
-Dataset download: https://osf.io/2q943/overview?view_only=f167a152660247b098ad5b817409b778
+Dataset download: https://drive.google.com/file/d/1LRqrAgpea6tRJNkKRC_hJktxTXxv4Dmg/view?usp=sharing
 
 ## Directory Structure
 

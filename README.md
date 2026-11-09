@@ -86,7 +86,7 @@ Place `api.xlsx` in the project root directory (`MemTransfer/api.xlsx`).
 
 ### 0. Download Dataset
 
-Download the dataset from [OSF](https://osf.io/2q943/overview?view_only=f167a152660247b098ad5b817409b778) and extract to `dataset/`:
+Download the dataset from [Google Drive](https://drive.google.com/file/d/1LRqrAgpea6tRJNkKRC_hJktxTXxv4Dmg/view?usp=sharing) and extract to `dataset/`:
 
 ```bash
 # After downloading the archive
@@ -178,7 +178,7 @@ python -m code.rq3.runtime --config config/rq3/D01_full_context_easy__test_v4.ya
 
 ## Troubleshooting
 
-- **`FileNotFoundError: dataset/v0-v5/...`** — Dataset not downloaded or not extracted. Download from [OSF](https://osf.io/2q943/overview?view_only=f167a152660247b098ad5b817409b778) and extract to `dataset/`. The directory should contain `dataset/v0-v5/` and `dataset/memory/`
+- **`FileNotFoundError: dataset/v0-v5/...`** — Dataset not downloaded or not extracted. Download from [Google Drive](https://drive.google.com/file/d/1LRqrAgpea6tRJNkKRC_hJktxTXxv4Dmg/view?usp=sharing) and extract to `dataset/`. The directory should contain `dataset/v0-v5/` and `dataset/memory/`
 - **`FileNotFoundError: dataset/warehouse_01_01/metadata.json`** — Server started without `--experiment_config`. Use: `python code/server.py --port 5000 --experiment_config <config_name>`
 - **`Connection refused`** — Server not started. Start in a separate terminal: `python code/server.py --port 5000 --experiment_config <config_name>`
 - **`connection timed out` / `cannot reach server`** — Agent started before server was ready. Wait a few seconds and retry, or use the one-liner with `sleep 3`
