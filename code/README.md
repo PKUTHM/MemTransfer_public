@@ -6,6 +6,7 @@ This directory contains the core runtime code for MemTransfer.
 
 ```text
 code/
+├── test_run.py                 One-click experiment runner (auto server + agent)
 ├── agent.py                    Model invocation, memory handling, action execution
 ├── server.py                   Scene state, action feedback, task judgment
 ├── experiment.py               Experiment config loading and validation
@@ -54,6 +55,14 @@ code/
 - Loads test tasks and expert trajectories
 - Validates memory file SHA256
 
+### test_run.py
+- **One-click experiment runner**: automatically starts server, runs preflight checks, and launches agent
+- Manages server lifecycle (start, wait for ready, stop)
+- Generates `RUN_INFO.json` and `preflight.json`
+- Supports experiment mode (via `--experiment_config`) and legacy mode
+- Redirects server logs to correct `server_logs/` directory
+- Outputs to `result/<model>/<config>/r<round>_<timestamp>/`
+
 ### scene_index.py
 - Scene indexing and path resolution
 - Manages V0-V5 scene mappings
@@ -88,6 +97,59 @@ code/
 |----------|---------|-------------|
 | `--port` | 5000 | Server port |
 | `--host` | 127.0.0.1 | Server address |
+| `--experiment_config` | - | Experiment config (auto-loads v4 test set) |
+| `--log_dir` | - | Override server log directory |
+
+### test_run.py
+
+**Experiment Mode** (recommended):
+
+| Argument | Default | Description |
+|----------|---------|-------------|
+| `--experiment_config` | - | Config name or path (required) |
+| `--case_ids` | all 100 | Comma-separated case IDs (e.g., `0,1,2`) |
+| `--round_id` | 0 | Repeat index for multiple runs |
+| `--preflight_only` | off | Run offline checks only, no model calls |
+| `--case_count` | 100 | Number of cases per config |
+| `--max_workers` | config | Parallel cases (default from config) |
+| `--api_excel` | api.xlsx | API key file path |
+| `--save_prompts` | off | Save first-decision prompts |
+| `--revalidate_keys` | off | Re-probe API keys instead of cache |
+| `--resume_dir` | - | Resume a previous run from directory |
+| `--results_dir` | - | Output directory override |
+
+**Legacy Mode** (parameter exploration):
+
+| Argument | Default | Description |
+|----------|---------|-------------|
+| `--configs` | `h=2,i=2` | Semicolon-separated configs |
+| `--parallel` | off | Run configs concurrently |
+| `--parallel_max` | 4 | Max parallel configs |
+| `--per_config_server` | off | Separate server per config |
+| `--no_server` | off | Assume server already running |
+
+**Legacy config tokens**: `h=history_steps`, `i=image_count`, `ref=reference_traj`, `refimg=reference_traj_images`, `peer=peer_reference`, `em=episodic_memory`, `sum=summary_prompt_path`, `sem=semantic_prompt_path`
+
+**Examples**:
+
+```bash
+# Smoke test (single case)
+python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
+
+# Full experiment
+python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0
+
+# Repeat experiment 3 times
+python code/test_run.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 0
+python code/test_run.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 1
+python code/test_run.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 2
+
+# Preflight validation only
+python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0 --preflight_only
+
+# Legacy mode: compare parameter settings
+python code/test_run.py --configs "h=5,i=5;h=5,i=5,ref=FWD,refimg=smart"
+```
 
 ### metrics.py
 

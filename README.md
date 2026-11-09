@@ -97,28 +97,33 @@ mv dataset/* . && rmdir dataset
 
 Verify: `dataset/v0-v5/` and `dataset/memory/` should exist.
 
-### 1. Start Server
+### 1. Run Experiment
 
-> **IMPORTANT**: The server MUST be started with `--experiment_config`. Without it, the server looks for legacy dataset paths that don't exist and will crash.
-
-```bash
-python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0
-```
-
-### 2. Run Agent (in a separate terminal)
+Use `test_run.py` — it automatically starts the server, runs preflight checks, and launches the agent:
 
 ```bash
-# Run single case
-python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
+# Run single case (smoke test)
+python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
 
 # Run all 100 cases
-python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0
+python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0
+
+# Preflight only (no model calls, just data validation)
+python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0 --preflight_only
 ```
 
-### One-liner (auto-start server in background)
+See [code/README.md](code/README.md#test_runpy) for all parameters.
+
+### 2. Manual Start (Alternative)
+
+If you need to start server and agent separately:
 
 ```bash
-python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0 & sleep 3 && python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
+# Terminal 1: start server (MUST include --experiment_config)
+python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0
+
+# Terminal 2: run agent
+python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
 ```
 
 ### 3. View Results
