@@ -1,8 +1,26 @@
+<div align="center">
+
 # MemTransfer: Memory Mechanism Navigation Experiment
 
-This project enables Vision-Language Models (VLM) to perform navigation tasks based on warehouse views and historical memory, comparing the effectiveness of different memory mechanisms. The current configuration includes 26 experiments for RQ1, 5 for RQ2, and 8 for RQ3, each with 100 test cases.
+[![arXiv](https://img.shields.io/badge/arXiv-2609.32313-b31b1b.svg)](https://arxiv.org/pdf/2609.32313)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-CODE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+Haiming Tang<sup>1\*</sup>, Xianjie Dai<sup>2\*</sup>, Gujie Shao<sup>1</sup>, Zuyi Guo<sup>2</sup>, Jingguang Li<sup>2</sup>, Kailang Ma<sup>2</sup>, Yihong Tang<sup>3</sup>, Heye Huang<sup>2†</sup>
+
+<sup>1</sup> National University of Singapore  
+<sup>2</sup> Korea Advanced Institute of Science and Technology  
+<sup>3</sup> McGill University  
+
+*\*Equal contribution, †Corresponding author*
+
+</div>
+
+---
 
 ## Project Overview
+
+This project enables Vision-Language Models (VLM) to perform navigation tasks based on warehouse views and historical memory, comparing the effectiveness of different memory mechanisms. The current configuration includes 26 experiments for RQ1, 5 for RQ2, and 8 for RQ3, each with 100 test cases.
 
 ### Experiment Scenario
 
@@ -34,9 +52,7 @@ The warehouse is a 15x27 grid environment with 225 reachable cells and 48 object
 - **RQ1**: Comparison of different memory mechanisms across test environments
   - A01-A17: Test environment V0, comparing 5 memory mechanisms × 4 memory versions
   - B01-B09: Test environment V4, validating memory transfer capability
-  
 - **RQ2**: Impact of environmental changes (V5 obstacles) on memory mechanisms
-  
 - **RQ3**: Effect of cross-case memory
   - D01-D04: Low-overlap external task memory (easy/hard)
   - D05-D08: High-conflict external task memory (easy/hard)
@@ -149,3 +165,10 @@ python -m code.rq3.runtime --config config/rq3/D01_full_context_easy__test_v4.ya
 - [config/README.md](config/README.md) - Experiment configuration details
 - [dataset/README.md](dataset/README.md) - Dataset structure
 - [result/README.md](result/README.md) - Result directory structure and metrics
+
+## License
+
+This project utilizes a dual-licensing model:
+
+- **Source Code**: Licensed under the [MIT License](LICENSE-CODE).
+- **Datasets, Documentation, and Other Media**: Licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0).
