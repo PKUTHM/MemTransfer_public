@@ -119,7 +119,19 @@ python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0
 
 See [code/README.md](code/README.md#test_runpy) for all parameters.
 
-### 2. View Results
+### 2. Manual Start (Alternative)
+
+If you need to start server and agent separately:
+
+```bash
+# Terminal 1: start server (MUST include --experiment_config)
+python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0
+
+# Terminal 2: run agent
+python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
+```
+
+### 3. View Results
 
 ```bash
 # Calculate metrics
