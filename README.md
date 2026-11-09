@@ -1,6 +1,6 @@
 <div align="center">
 
-# MemTransfer: Memory Mechanism Navigation Experiment
+# MemTransfer: Benchmarking Memory Beyond Matched Experience in Embodied Decision-Making
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.32313-b31b1b.svg)](https://arxiv.org/pdf/2609.32313)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-CODE)
