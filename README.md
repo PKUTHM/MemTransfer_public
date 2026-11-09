@@ -108,25 +108,18 @@ python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0
 # Run all 100 cases
 python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0
 
+# Repeat experiment 3 times (for statistical significance)
+python code/test_run.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 0
+python code/test_run.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 1
+python code/test_run.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 2
+
 # Preflight only (no model calls, just data validation)
 python code/test_run.py --experiment_config rq1/A01_working_memory_only__test_v0 --preflight_only
 ```
 
 See [code/README.md](code/README.md#test_runpy) for all parameters.
 
-### 2. Manual Start (Alternative)
-
-If you need to start server and agent separately:
-
-```bash
-# Terminal 1: start server (MUST include --experiment_config)
-python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0
-
-# Terminal 2: run agent
-python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
-```
-
-### 3. View Results
+### 2. View Results
 
 ```bash
 # Calculate metrics
@@ -152,20 +145,6 @@ Main configuration fields:
 | `execution` | Concurrency, timeout, retry settings |
 
 See [config/README.md](config/README.md) for detailed configuration.
-
-## Repeating Experiments
-
-When the same configuration needs to be tested multiple times, specify `--round_id`:
-
-```bash
-# Terminal 1
-python code/server.py --port 5000 --experiment_config rq1/B01_working_memory_only__test_v4
-
-# Terminal 2
-python code/agent.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 0
-python code/agent.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 1
-python code/agent.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 2
-```
 
 ## RQ3 Execution
 
