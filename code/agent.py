@@ -292,18 +292,18 @@ def load_api_keys_from_list(keys, default_url=None, default_model=None,
 def load_api_keys(excel_path):
     try:
         df = pd.read_excel(excel_path)
-        if df.shape[1] < 3:
-            raise ValueError("Excel has fewer than 3 columns.")
-        col = df.iloc[:, 2].dropna().astype(str)
+        if df.shape[1] < 1:
+            raise ValueError("Excel has no columns.")
+        col = df.iloc[:, 0].dropna().astype(str)
         keys = []
         for v in col:
             v = v.strip().rstrip(",").strip()
             if v.startswith("sk-"):
                 keys.append(v)
         if not keys:
-            raise ValueError("No sk- keys in column C.")
+            raise ValueError("No sk- keys in column A.")
         random.shuffle(keys)
-        print(f"🔑 Loaded {len(keys)} API keys from {excel_path} (col C, shuffled).")
+        print(f"🔑 Loaded {len(keys)} API keys from {excel_path} (col A, shuffled).")
         return keys
     except Exception as e:
         print(f"⚠️ Failed to load API keys from {excel_path}: {e}")

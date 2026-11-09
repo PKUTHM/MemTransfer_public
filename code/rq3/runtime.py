@@ -14,8 +14,9 @@ from .cross_case_memory import config_from_rq3, imports, install_agent, install_
 
 
 def default_results_dir(config_path: Path) -> Path:
-    """Keep RQ3 runs beside the existing Intern-S2 experiment results."""
-    return ROOT / 'result_Intern-S2-Preview-397B' / config_path.stem
+    """result/<model>/<config>/"""
+    model = 'Intern-S2-Preview-397B'
+    return ROOT / 'result' / model / config_path.stem
 
 
 def main():

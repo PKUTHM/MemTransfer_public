@@ -64,29 +64,38 @@ MemTransfer/
 ├── code/              Runtime code (see code/README.md)
 ├── config/            Experiment configurations (see config/README.md)
 ├── dataset/           Test data (see dataset/README.md)
-└── result_<model>/    Experiment results (see result/README.md)
+└── result/            Experiment results (see result/README.md)
+    └── <model_name>/
+        └── <experiment_config_name>/
+            └── r<round>_<timestamp>/
 ```
 
 ## Installation
 
 ```bash
-# Python 3.10+, virtual environment recommended
-python3 -m venv .venv
-source .venv/bin/activate
+# Python 3.10+
 pip install flask requests pandas openpyxl pillow pyyaml
 ```
 
-Prepare API key file `api.xlsx`, fill column C with InternVL keys (one per row, e.g., `sk-...`).
+## API Key File
+
+Place `api.xlsx` in the project root directory (`MemTransfer/api.xlsx`).
+
+- **Column A**: API keys, one per row (e.g., `sk-xxx`)
+- Other columns (B, C, ...) are optional (e.g., email, password)
+- Missing `api.xlsx` → `RuntimeError: Failed to load API keys`
 
 ## Quick Start
 
-### 1. Offline Check
+### 1. Start Server
+
+> **IMPORTANT**: The server MUST be started with `--experiment_config`. Without it, the server looks for legacy dataset paths that don't exist and will crash.
 
 ```bash
-python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --preflight_only
+python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0
 ```
 
-### 2. Run Experiment
+### 2. Run Agent (in a separate terminal)
 
 ```bash
 # Run single case
@@ -94,6 +103,12 @@ python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --
 
 # Run all 100 cases
 python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0
+```
+
+### One-liner (auto-start server in background)
+
+```bash
+python code/server.py --port 5000 --experiment_config rq1/A01_working_memory_only__test_v0 & sleep 3 && python code/agent.py --experiment_config rq1/A01_working_memory_only__test_v0 --case_ids 0
 ```
 
 ### 3. View Results
@@ -125,9 +140,13 @@ See [config/README.md](config/README.md) for detailed configuration.
 
 ## Repeating Experiments
 
-When the same configuration needs to be tested three times, specify `--round_id`:
+When the same configuration needs to be tested multiple times, specify `--round_id`:
 
 ```bash
+# Terminal 1
+python code/server.py --port 5000 --experiment_config rq1/B01_working_memory_only__test_v4
+
+# Terminal 2
 python code/agent.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 0
 python code/agent.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 1
 python code/agent.py --experiment_config rq1/B01_working_memory_only__test_v4 --round_id 2
@@ -153,10 +172,13 @@ python -m code.rq3.runtime --config config/rq3/D01_full_context_easy__test_v4.ya
 
 ## Troubleshooting
 
-- **`ModuleNotFoundError: No module named 'pandas'`** — Run `pip install pandas openpyxl pillow pyyaml`
+- **`FileNotFoundError: dataset/warehouse_01_01/metadata.json`** — Server started without `--experiment_config`. Use: `python code/server.py --port 5000 --experiment_config <config_name>`
+- **`Connection refused`** — Server not started. Start in a separate terminal: `python code/server.py --port 5000 --experiment_config <config_name>`
+- **`connection timed out` / `cannot reach server`** — Agent started before server was ready. Wait a few seconds and retry, or use the one-liner with `sleep 3`
+- **`API keys validated keys` but no experiment output** — Keys are cached but server wasn't running. Check server terminal for errors
 - **`port 5000 already in use`** — Another server is running. Use `pkill -9 -f "code/server.py"` or change port
 - **All cases 0% with `failed_timeout`** — InternVL endpoint unreachable or keys invalid. Check server logs
-- **`Connection refused`** — Server not started. Start manually: `python code/server.py --port 5000`
+- **`No sk- keys in column A`** — API keys must be in column A of `api.xlsx` (not column C)
 - **SHA256 mismatch** — Memory files modified. Update `memory_files.*.sha256` in config
 
 ## Detailed Documentation

@@ -10,7 +10,7 @@ def experiment_result_dir(cfg, config_path, round_id=0, root=None, stamp=None):
     if not model:
         raise ValueError('Model name cannot form a result directory')
     project = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    root = root if root is not None else os.path.join(project, 'result_' + model)
+    root = root if root is not None else os.path.join(project, 'result')
     stem = os.path.splitext(os.path.basename(config_path))[0]
     stamp = stamp or datetime.now().strftime('%Y%m%d_%H%M%S_%f')
-    return os.path.join(root, stem, 'r%s_%s' % (round_id, stamp))
+    return os.path.join(root, model, stem, 'r%s_%s' % (round_id, stamp))
